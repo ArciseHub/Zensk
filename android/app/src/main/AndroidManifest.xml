@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="informatik_projekt"
+        android:label="Zensk"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

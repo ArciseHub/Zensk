@@ -21,7 +21,7 @@ dependencies:
   change_app_package_name: ^0.1.2
   animations: ^1.1.2
   sizer: ^1.1.8
-  flutter_advanced_switch: ^0.0.9+3
+  flutter_advanced_switch: ^0.0.9+4
   firebase_core: ^0.5.0
   firebase_auth: ^0.18.1+1
   cloud_firestore: ^0.14.1+1
@@ -29,6 +29,7 @@ dependencies:
   shared_preferences: ^0.5.12+4
   fading_edge_scrollview: ^1.1.4
   page_transition: ^1.1.7+6
+  http: ^0.12.2
 
 
 

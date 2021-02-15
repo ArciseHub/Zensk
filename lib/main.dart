@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:informatik_projekt/pages/FirstPages/splash_page.dart';
 import 'package:flutter/services.dart';
-import 'package:informatik_projekt/utilities/colors/colors.dart';
+import 'package:informatik_projekt/ui/pages/FirstPages/splash_page.dart';
+import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sizer/sizer.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -49,7 +49,12 @@ Future<void> main() async {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   final customColors = CustomColors();
   @override
   Widget build(BuildContext context) {
