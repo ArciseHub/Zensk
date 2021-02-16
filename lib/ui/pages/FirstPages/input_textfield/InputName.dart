@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:sizer/sizer.dart';
 
 class InputName extends StatefulWidget {

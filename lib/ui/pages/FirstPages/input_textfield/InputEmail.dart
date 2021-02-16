@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:sizer/sizer.dart';
 
 // https://mightytechno.com/flutter-textfield/

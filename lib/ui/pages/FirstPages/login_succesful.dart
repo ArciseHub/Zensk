@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:informatik_projekt/ui/shared_widgets/navigation_bar/navigation_bar.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:sizer/sizer.dart';
 
 class LogInSuccessful extends StatefulWidget {

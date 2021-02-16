@@ -4,7 +4,7 @@ import 'file:///C:/Users/Samuel/AndroidStudioProjects/informatik_projekt/lib/ui/
 import 'file:///C:/Users/Samuel/AndroidStudioProjects/informatik_projekt/lib/ui/pages/MainPages/News/news.dart';
 import 'file:///C:/Users/Samuel/AndroidStudioProjects/informatik_projekt/lib/ui/pages/MainPages/Portfolio/portfolio.dart';
 import 'file:///C:/Users/Samuel/AndroidStudioProjects/informatik_projekt/lib/ui/pages/MainPages/Search/search.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 
 //https://www.youtube.com/watch?v=qj7jcuU2Z10&list=LL&index=2&t=177s
 

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
 import 'package:informatik_projekt/ui/pages/FirstPages/FirstPage.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:sizer/sizer.dart';
-import 'package:informatik_projekt/ui/utilities/theme/TextStyle.dart';
+import 'package:informatik_projekt/utilities/theme/TextStyle.dart';
 
 //https://www.youtube.com/watch?v=8eRQyE2PN7w&t=1s
 

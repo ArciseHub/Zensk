@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:informatik_projekt/ui/shared_widgets/navigation_bar/navigation_bar.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:sizer/sizer.dart';
 
 class SignUpSuccessful extends StatefulWidget {
@@ -22,8 +22,8 @@ class _SignUpSuccessfulState extends State<SignUpSuccessful>
     // TODO: implement initState
     super.initState();
     Timer(const Duration(milliseconds: 2000), () {
-      Navigator.push(
-          context, MaterialPageRoute(builder: (context) => NewNewNavigationBar()));
+      Navigator.push(context,
+          MaterialPageRoute(builder: (context) => NewNewNavigationBar()));
     });
     _controller = AnimationController(
         vsync: this, duration: Duration(seconds: 2, milliseconds: 0));

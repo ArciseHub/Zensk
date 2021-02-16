@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:informatik_projekt/ui/shared_widgets/popUp.dart';
 import 'package:informatik_projekt/ui/pages/FirstPages/FirstPage.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:sizer/sizer.dart';
 
 class AccountEditProfile extends StatefulWidget {

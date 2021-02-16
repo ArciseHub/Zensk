@@ -4,7 +4,7 @@ import 'package:flutter_advanced_switch/flutter_advanced_switch.dart';
 import 'package:informatik_projekt/ui/pages/MainPages/Account/account_changePassword.dart';
 import 'package:informatik_projekt/ui/pages/MainPages/Account/account_editProfile.dart';
 import 'package:informatik_projekt/ui/shared_widgets/popUp.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:informatik_projekt/ui/pages/FirstPages/FirstPage.dart';
 import 'package:shared_preferences/shared_preferences.dart';

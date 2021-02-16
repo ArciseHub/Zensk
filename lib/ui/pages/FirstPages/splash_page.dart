@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:informatik_projekt/ui/pages/FirstPages/FirstPage.dart';
 import 'package:informatik_projekt/ui/shared_widgets/navigation_bar/navigation_bar.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sizer/sizer.dart';

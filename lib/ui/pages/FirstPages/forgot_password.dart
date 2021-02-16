@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:informatik_projekt/main.dart';
 import 'package:informatik_projekt/net/flutterfire.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:sizer/sizer.dart';
 import 'package:informatik_projekt/ui/pages/FirstPages/login_page.dart';

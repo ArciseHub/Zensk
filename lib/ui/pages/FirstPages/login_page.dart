@@ -6,7 +6,7 @@ import 'package:informatik_projekt/net/flutterfire.dart';
 import 'package:informatik_projekt/ui/pages/FirstPages/forgot_password.dart';
 import 'package:informatik_projekt/ui/pages/FirstPages/login_succesful.dart';
 import 'package:informatik_projekt/ui/pages/FirstPages/register_page.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sizer/sizer.dart';

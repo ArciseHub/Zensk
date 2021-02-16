@@ -1,7 +1,7 @@
 import 'package:fading_edge_scrollview/fading_edge_scrollview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:informatik_projekt/ui/utilities/colors/colors.dart';
+import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:sizer/sizer.dart';
 
 class AccountChangePassword extends StatefulWidget {
