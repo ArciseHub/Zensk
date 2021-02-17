@@ -20,7 +20,7 @@ class FirstPage extends StatelessWidget {
               Container(
                 height: 55.0.h, //with Text underneath 45.0.h
                 width: double.infinity,
-                child: Image.asset('assets/images/app_icon_app.png'),
+                child: Image.asset('assets/images/app_logo_transparent.png'),
               ),
               SizedBox(height: 2.25.h),
               Text(

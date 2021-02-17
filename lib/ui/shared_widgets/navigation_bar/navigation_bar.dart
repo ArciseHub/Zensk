@@ -5,6 +5,8 @@ import 'file:///C:/Users/Samuel/AndroidStudioProjects/informatik_projekt/lib/ui/
 import 'file:///C:/Users/Samuel/AndroidStudioProjects/informatik_projekt/lib/ui/pages/MainPages/Portfolio/portfolio.dart';
 import 'file:///C:/Users/Samuel/AndroidStudioProjects/informatik_projekt/lib/ui/pages/MainPages/Search/search.dart';
 import 'package:informatik_projekt/utilities/colors/colors.dart';
+import 'package:informatik_projekt/viewmodels/newsArticleListViewModel.dart';
+import 'package:provider/provider.dart';
 
 //https://www.youtube.com/watch?v=qj7jcuU2Z10&list=LL&index=2&t=177s
 
@@ -129,15 +131,18 @@ class TabNavigator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Widget child;
-    if (tabItem == "Dashboard")
+    if (tabItem == "Dashboard") {
       child = Dashboard();
-    else if (tabItem == "Portfolio")
+    } else if (tabItem == "Portfolio") {
       child = Portfolio();
-    else if (tabItem == "Search")
+    } else if (tabItem == "Search") {
       child = Search();
-    else if (tabItem == "News")
-      child = News();
-    else if (tabItem == "Account") child = Account();
+    } else if (tabItem == "News") {
+      child = ChangeNotifierProvider(
+          create: (_) => NewsArticleListViewModel(), child: News());
+    } else if (tabItem == "Account") {
+      child = Account();
+    }
 
     return Navigator(
       key: navigatorKey,

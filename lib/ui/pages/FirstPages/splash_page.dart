@@ -92,7 +92,7 @@ class _SplashPageState extends State<SplashPage>
         opacity: _animation,
         child: Center(
           child: Image.asset(
-            "assets/images/app_icon_app.png",
+            "assets/images/app_logo_transparent.png",
             height: 45.0.h,
             width: 45.0.w,
           ),

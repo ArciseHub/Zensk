@@ -1,10 +1,12 @@
 class NewsArticle {
   final String title;
+  final String source;
   final String description;
   final String urlToImage;
   final String url;
 
-  NewsArticle({this.title, this.description, this.urlToImage, this.url});
+  NewsArticle(
+      {this.title, this.source, this.description, this.urlToImage, this.url});
 
   factory NewsArticle.fromJSON(Map<String, dynamic> json) {
     return NewsArticle(
