@@ -15,17 +15,12 @@ A new Flutter application.
 ### Dashboard 
 ![Dashboard](https://user-images.githubusercontent.com/76230380/108330496-f524dc00-71cd-11eb-98aa-89e098dcb24a.gif)
 ### Portfolio
-
 # Coming Soon
-
 ### Search
-
 # Coming Soon
-
 ### News  
 ![News](https://user-images.githubusercontent.com/76230380/108330528-fd7d1700-71cd-11eb-90b2-0d56b8840278.gif)
 ### Account
-
 # Coming Soon
 
 This project is a starting point for a Flutter application.
