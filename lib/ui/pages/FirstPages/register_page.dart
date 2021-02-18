@@ -151,7 +151,6 @@ class _RegisterPageState extends State<RegisterPage> {
                                                     TextAlignVertical.center,
                                                 cursorColor: customColors
                                                     .navigationBarSelectedItemColor,
-                                                obscureText: !_passwordVisible,
                                                 decoration: InputDecoration(
                                                   border: InputBorder.none,
                                                   hintText: 'Your Name',
