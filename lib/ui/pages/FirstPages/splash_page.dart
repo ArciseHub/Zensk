@@ -23,7 +23,6 @@ class _SplashPageState extends State<SplashPage>
   AnimationController _controller;
   Animation<double> _animation;
 
-  // https://www.hotreloader.com/2020/06/opening-screen-only-once-flutter.html
   Future checkFirstSeen() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     final SharedPreferences sharedPreferences =

@@ -8,8 +8,6 @@ import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:informatik_projekt/viewmodels/newsArticleListViewModel.dart';
 import 'package:provider/provider.dart';
 
-//https://www.youtube.com/watch?v=qj7jcuU2Z10&list=LL&index=2&t=177s
-
 class NewNewNavigationBar extends StatefulWidget {
   @override
   _NewNewNavigationBarState createState() => _NewNewNavigationBarState();

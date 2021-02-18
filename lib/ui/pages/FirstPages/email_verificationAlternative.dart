@@ -10,8 +10,6 @@ import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:sizer/sizer.dart';
 
-// https://codewithandrea.com/tips/easily-move-focus-scope-node/
-
 class EmailVerificationAlternative extends StatefulWidget {
   @override
   _EmailVerificationAlternativeState createState() =>

@@ -12,8 +12,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sizer/sizer.dart';
 import 'package:fading_edge_scrollview/fading_edge_scrollview.dart';
 
-//https://www.youtube.com/watch?v=0ENSb1dx4Ds
-
 class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();

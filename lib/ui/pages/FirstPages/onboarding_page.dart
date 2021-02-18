@@ -6,8 +6,6 @@ import 'package:page_transition/page_transition.dart';
 import 'package:sizer/sizer.dart';
 import 'package:informatik_projekt/utilities/theme/TextStyle.dart';
 
-//https://www.youtube.com/watch?v=8eRQyE2PN7w&t=1s
-
 class OnBoardingScreen extends StatefulWidget {
   @override
   _OnBoardingScreenState createState() => _OnBoardingScreenState();

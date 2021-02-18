@@ -5,8 +5,6 @@ import 'package:informatik_projekt/ui/pages/FirstPages/registration_succesful.da
 import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:sizer/sizer.dart';
 
-// https://codewithandrea.com/tips/easily-move-focus-scope-node/
-
 class EmailVerification extends StatefulWidget {
   @override
   _EmailVerificationState createState() => _EmailVerificationState();

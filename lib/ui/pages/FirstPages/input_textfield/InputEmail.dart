@@ -3,8 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:informatik_projekt/utilities/colors/colors.dart';
 import 'package:sizer/sizer.dart';
 
-// https://mightytechno.com/flutter-textfield/
-
 class InputEmail extends StatefulWidget {
   @override
   _InputEmailState createState() => _InputEmailState();
